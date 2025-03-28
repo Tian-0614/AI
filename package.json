@@ -1,0 +1,49 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/my.es.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:mk": "vite build src/markdown.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lib": "vue-cli-service build --target lib --name my --dest lib src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.1.5",
+    "@vueuse/motion": "^2.2.6",
+    "dayjs": "^1.11.13",
+    "echarts": "^5.6.0",
+    "element-plus": "^2.9.4",
+    "github-markdown-css": "^5.8.1",
+    "highlight.js": "^11.11.1",
+    "markdown-it": "^14.1.0",
+    "markdown-it-emoji": "^3.0.0",
+    "markdown-it-highlightjs": "^4.2.0",
+    "markdown-it-multimd-table": "^4.2.3",
+    "markdown-loader": "^8.0.0",
+    "marked": "^15.0.7",
+    "path": "^0.12.7",
+    "rollup-plugin-dts": "^6.1.1",
+    "vue": "^3.5.12"
+  },
+  "devDependencies": {
+    "@iconify-json/ep": "^1.1.10",
+    "@types/node": "^18.15.11",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "consola": "^3.1.0",
+    "sass": "^1.61.0",
+    "sass-loader": "^13.3.2",
+    "typescript": "^5.0.4",
+    "vite": "^5.4.2",
+    "vite-plugin-style-import": "^2.0.0",
+    "vite-plugin-vue-setup-extend": "^0.4.0",
+    "vue-tsc": "^1.2.0"
+  }
+}

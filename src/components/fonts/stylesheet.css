@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Digits';
+    src: url('Digits.eot');
+    src: url('Digits.eot?#iefix') format('embedded-opentype'),
+        url('Digits.woff2') format('woff2'),
+        url('Digits.woff') format('woff'),
+        url('Digits.ttf') format('truetype'),
+        url('Digits.svg#Digits') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PangMenZhengDao';
+    src: url('PangMenZhengDao.eot');
+    src: url('PangMenZhengDao.eot?#iefix') format('embedded-opentype'),
+        url('PangMenZhengDao.woff2') format('woff2'),
+        url('PangMenZhengDao.woff') format('woff'),
+        url('PangMenZhengDao.ttf') format('truetype'),
+        url('PangMenZhengDao.svg#PangMenZhengDao') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'pingfang';
+    src: url('PangMenZhengDao.OTF');
+    src: url('PangMenZhengDao.eot?#iefix') format('embedded-opentype'),
+        url('PangMenZhengDao.woff2') format('woff2'),
+        url('PangMenZhengDao.woff') format('woff'),
+        url('PangMenZhengDao.ttf') format('truetype'),
+        url('PangMenZhengDao.svg#PangMenZhengDao') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'sentyzhao';
+    src: url('SENTYZHAO.OTF');
+    /* src: url('PangMenZhengDao.eot?#iefix') format('embedded-opentype'),
+        url('PangMenZhengDao.woff2') format('woff2'),
+        url('PangMenZhengDao.woff') format('woff'),
+        url('PangMenZhengDao.ttf') format('truetype'),
+        url('PangMenZhengDao.svg#PangMenZhengDao') format('svg'); */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
